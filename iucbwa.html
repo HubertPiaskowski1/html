@@ -1,0 +1,51 @@
+<DOCTYPE! html>
+<html>
+	<head>
+	</head>	
+		<body>
+			<form oninput="wynik.value" = parseInt(a.value) * parseInt(b.value) * (parseInt(c.value)>
+			<table border="0" width="400" align="center" bgcolor="#FFFF99" height="350px">
+				<tr height="50px">
+					<td width="20%" align="center">	
+						Invoice
+					</td>
+				</tr>
+				<tr height="50px">
+					<td width="20%" align="center">
+						Number of hours:
+					</td>
+					<td width="20%" align="center">
+						<input min="0" max="100" value="40" step="1" type="number" name="a">
+					</td>
+				</tr>	
+				<tr>
+					<td width="20%" align="center">
+						Rate:
+					</td>
+					<td width="20%" align="center">
+						<input min="0" max="100" value="50" step="1" type="number" name="b">
+					</td>
+					<td width="10%" align="center">
+						(Zł)
+					</td>
+				</tr>
+				<tr>
+					<td width="20%" align="center">
+						VAT:
+					</td>
+					<td width="20%" align="center">
+						<input min="0" max="23" value="0" step="0.1" type="number" name="c">
+					</td>
+				</tr>
+				<tr>
+					<td width="20%" align="center">
+						TOTAL:
+					</td>
+					<td width="20%" align="center">
+						<output name="wynik"></output>
+					</td>
+				</tr>
+			</table>
+			</form>
+		</body>
+</html>
