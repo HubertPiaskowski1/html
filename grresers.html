@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+		<style>
+			.margines {
+				padding: 50px;
+			}
+			.container {
+				display:grid;
+				grid-template-columns: repeat(4, 100px);
+				grid-template-rows: repeat(6, 100px);
+				grid-column-gap: 1px;
+				grid-row-gap: 1px;
+				font-family: 'Anton', sans-serif;
+				font-size: 50px;
+				
+			}
+			.large {
+				grid-column-start: 1;
+				grid-column-end: 3;
+
+			}
+			.large2 {
+				grid-column-start: 1;
+				grid-column-end: 5;
+			}
+			.row {
+				outline: 2px solid black;
+			}
+			.pomaranczowy {
+				background-color: orange;
+			}
+			.jasny_niebieski {
+				background-color: lightblue;
+			}
+			.czarny {
+				background-color: black;
+			}
+			.bialy {
+				color: white;
+			}
+			.srodek {
+				text-align: center;
+			}
+			.prawo {
+				text-align: right;
+			}
+			.large3 {
+				grid-column-start: 1;
+				grid-column-end: 5;
+				font-size: 30px;
+			}
+			.large2-pozycja {
+				position: relative;
+				bottom: 30px;
+			
+		</style>
+	</head>
+	
+	<body>
+		<div class="container">
+			<div class="row large3 czarny bialy prawo">86423</div>
+			<div class="row large2 czarny bialy prawo">
+				<div class="large2-pozycja">78687567576</div>
+			</div>
+			<div class="row jasny_niebieski srodek">C</div>
+			<div class="row jasny_niebieski srodek">%</div>
+			<div class="row jasny_niebieski srodek"><-</div>
+			<div class="row pomaranczowy bialy srodek">/</div>
+			<div class="row jasny_niebieski srodek">1</div>
+			<div class="row jasny_niebieski srodek">2</div>
+			<div class="row jasny_niebieski srodek">3</div>
+			<div class="row pomaranczowy bialy srodek">x</div>
+			<div class="row jasny_niebieski srodek">4</div>
+			<div class="row jasny_niebieski srodek">5</div>
+			<div class="row jasny_niebieski srodek">6</div>
+			<div class="row pomaranczowy bialy srodek">-</div>
+			<div class="row jasny_niebieski srodek">7</div>
+			<div class="row jasny_niebieski srodek">8</div>
+			<div class="row jasny_niebieski srodek">9</div>
+			<div class="row pomaranczowy bialy srodek">+</div>
+			<div class="row large jasny_niebieski srodek">0</div>
+			<div class="row jasny_niebieski srodek">.</div>
+			<div class="row pomaranczowy bialy srodek">=</div>
+			
+		</div>
+	</body>
+</html>
