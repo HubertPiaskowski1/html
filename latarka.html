@@ -1,0 +1,109 @@
+<DOCTyPE! html>
+<html>
+	<head>
+		<style>
+			.kolko {
+				background-color:grey;
+				height:100px;
+				width:300px;
+				border-radius:50%;
+				border:5px solid black;
+				position:relative;
+				top:50;
+				z-index:2;
+				}
+				
+			.kolko1 {
+				background-color:green;
+				height:100px;
+				width:300px;
+				border-radius:50%;
+				border:5px solid black;
+				position:relative;
+				top:-50;
+				z-index:0;
+				animation-name:zmiania_koloru;
+				animation-duration: 5s;
+				animation-iteration-count:infinite;
+				}
+			
+			.kolko2 {
+				background-color:red;
+				height:100px;
+				width:300px;
+				border-radius:50%;
+				border:5px solid black;
+				position:relative;
+				top:-150;
+				z-index:-2;
+				
+				}
+			.kolko3 {
+				background-color:grey;
+				height:30px;
+				width:50px;
+				border-radius:50%;
+				border:5px solid black;
+				position:relative;
+				top:-220;
+				left:7%;
+				z-index:-4;
+				}
+			
+			.prostokat {
+				height:100px;
+				width:300px;
+				background-color:green;
+				border:5px solid black;	
+				z-index:1;
+				border-bottom:transparent;
+				animation-name:zmiania_koloru;
+				animation-duration: 5s;
+				animation-iteration-count:infinite;
+				}
+			
+			.prostokat1 {
+				height:100px;
+				width:300px;
+				background-color:red;
+				border:5px solid black;
+				position:relative;
+				top:-100;
+				z-index:-1;
+				border-bottom:transparent;
+				}
+				
+			.prostokat2 {
+				height:200px;
+				width:50px;
+				background-color:grey;
+				border:5px solid black;
+				position:relative;
+				top:-200;
+				z-index:-3;
+				left:7%;
+				border-bottom:transparent;
+				}
+			div{
+				position:relative;
+				}
+				
+			@keyframes zmiania_koloru{
+					0% , 100%{
+					background-color:green;
+					}
+					50%{
+					background-color:yellow;
+					}
+		</style>
+	</head>
+	<body>
+		<div class="kolko"></div>
+		<div class="prostokat"></div>
+		<div class="kolko1"></div>
+		<div class="prostokat1"></div>
+		<div class="kolko2"></div>
+		<div class="prostokat2"></div>
+		<div class="kolko3"></div>
+	</body>
+</html>
