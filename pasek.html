@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		
+			.prostokat{
+				width:300px;
+				height:50px;
+				background-color:red;
+				top:200px;
+				left:50px;
+				position:absolute;
+				}
+				
+			.prostokat2{
+				width:400px;
+				height:50px;
+				background-color:black;
+				top:200px;
+				left:300px;
+				position:absolute;
+				}
+				
+			.trojkat{
+				border: 25px solid transparent;
+				border-left-color:red;
+				position:absolute;
+				top:200px;
+				left:300px;
+				}
+				
+			.tekst{
+				top:200px;
+				left:330px;
+				color:white;
+				font-size:45px;
+				position:absolute;
+				animation-name: animacja;
+				animation-duration:3s;
+				animation-iteration-count:infinite;
+
+				}
+			
+
+			
+			@keyframes animacja {
+				0%, 100% {
+					left:330px;
+				}
+				100% {
+					left: 700px;
+				}
+			}
+					
+		</style>
+	</head>
+		<body>
+			<div class="prostokat"></div>
+			<div class="prostokat2"></div>
+			<div class="trojkat"></div>
+			<div class="tekst">XDDDD</div>
+
+		</body>
+</html>
