@@ -1,0 +1,56 @@
+ header, footer, .content * {
+            padding: 1em;
+          }
+          .container {
+            display: flex;
+            flex-direction: column;
+          }
+
+          header{
+            flex-basis: 30vh;
+            background-color:orange;
+			background-image:url('makaron.jpg');
+			background-repeat:repeat-x;
+			background-position:;
+			font-size:40px;
+			color:blue;
+
+          }
+
+          .content {
+              display:flex;
+              flex-basis: 60vh;
+          }
+          .container div, header, footer {
+              box-sizing: border-box;
+          }
+                    
+          section {
+			flex-basis: 50vh; 
+			background-color: #ffc180;
+			background-image:url('makaron.jpg');
+			background-repeat:no-repeat;
+			background-size:350px;
+			background-position:center,center;
+			font-size:25px;
+			text-align:center;
+          }
+
+          nav {
+            background-color:#ffe6cc;
+			flex-basis: 50vh;
+			text-align:center;
+			font-size:25px;
+          }
+
+          aside {
+            background-color:#ffcc99; 
+			flex-basis: 50vh;
+			font-size:25px;
+			text-align:center;
+          }
+		  
+		  footer{
+			background-color:#ffc180;
+			font-size:23px;
+		  }
