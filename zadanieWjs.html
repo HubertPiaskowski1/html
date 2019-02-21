@@ -1,0 +1,86 @@
+<html>
+
+	<head>
+			<title>XDD</title>
+		
+	</head>
+	
+		<body>
+			<script>
+				var zmienna = 10;
+				var przeciwna = -zmienna;
+					
+				document.write("Badana zmienna:", zmienna);
+				document.write("<br> Wartość przeciwna:", przeciwna);
+				if (zmienna != 0){
+				
+				var odwrotna = 1/ zmienna;
+				
+				document.write("<br> Wartość odwrotna", odwrotna )
+					}
+					
+				if(zmienna >=0) {
+				document.write("<br> Modul", zmienna);
+					} else {
+				document.write("<br> Modul", przeciwna);	
+					}
+					
+					
+					
+			for(var i = 2010;i<=2020;i++){	
+				var rok = i;
+				var p_1 = rok % 4 ==0 && rok % 100 != 0;
+				var p_2 = rok % 400 ==0;
+				var przestepny = p_1 || p_2;
+				
+				document.write("<br>---------------------");
+				document.write("<br> Rok", i);
+				document.write("<br> Rok przestepny", przestepny);
+				}
+				
+				
+				var v = [-10,20,30,0,50,55,-20];
+				
+				var l = v.length;
+				
+				min = v[0];
+				
+				max = v[0];
+				
+				suma = 0;
+				
+			for(var i = 0;i<l;i++) {
+				aktualny = v[i];
+				
+				if(min > aktualny){
+				 min = aktualny
+				}
+				
+				if(max < aktualny){
+				 max = aktualny
+				}
+				
+				var srednia = suma /l 
+				srednia = srednia.toFixed(2);
+				
+				suma = suma + v[i];
+				document.write("<br> -----------------");
+				document.write("<br> Element", i);
+				document.write("<br> Wartosc", v[i]);
+				}
+			
+				document.write("<br> Minimum", min);
+				document.write("<br> Maksimum", max);
+				
+				document.write("<br> Suma", suma);
+				document.write("<br> Srednia", srednia);
+
+
+
+				
+				
+				
+			</script>
+		</body>
+	
+</html>
